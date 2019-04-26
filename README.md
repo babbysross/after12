@@ -1,4 +1,4 @@
-![Mind The Gap](./files/mtg.png)
+![Mind The Gap](./files/mtg2.png)
 
 The official Mind The Gap podcast website.
 
