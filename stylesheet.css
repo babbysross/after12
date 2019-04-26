@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'bariolregular';
+    src: url('fonts/bariol_regular-webfont.eot');
+    src: url('fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bariol_regular-webfont.woff2') format('woff2'),
+         url('fonts/bariol_regular-webfont.woff') format('woff'),
+         url('fonts/bariol_regular-webfont.ttf') format('truetype'),
+         url('fonts/bariol_regular-webfont.svg#bariolregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  font-size: 30px;
+  width: 10%;
+  max-width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: #F4F5EF;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: #F4F5EF;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: #F4F5EF;
+}
+
+/* Reddit */
+.fa-reddit {
+  background: #ff5700;
+  color: #F4F5EF;
+}
+
+/* Github */
+.fa-github {
+  background: red;
+  color: #F4F5EF;
+}
+
+/* Spotify */
+.fa-spotify {
+  background: #1ED760;
+  color: #F4F5EF;
+}
+
+/* Website styling */
+
+body {
+  background-color: #29282D;
+  font-family: bariolregular
+}
+
+h1 {
+  color: #F4F5EF;
+  font-size: 237%;
+  font-weight: 900
+}
+
+h3 a:visited {
+  color: #29282D;
+}
+
+h3 a:link {
+  color: #29282D;
+  text-decoration: none
+}
+
+h3 a:hover {
+  color: #717173;
+}
+
+p {
+  font-size: 125%;
+  font: fonts/
+}
+
+td img {
+  width: 80%;
+}
+
+h4 {
+  font-size: 110%;
+  overflow: hidden;
+}
+
+#Bar {
+  background-color: #f2e65e;
+  color: #29282D;
+}
+
+#Bar td {
+  height: 60%;
+  width: 300px;
+}
+
+#Bar table {
+  text-align: left;
+  padding-left: 5%;
+}
+
+#logo {
+  max-width: 120px;
+  float: left;
+  padding-top: 0%;
+  padding-left: 10px
+}
+
+.block {
+  color: #F4F5EF;
+  font-size: 100%;
+  font-weight: 900
+}
+
+.block h3 p {
+  text-decoration: none
+}
+
+#admin a {
+  font-size: 87%
+}
+
+#admin a:visited {
+  color: rgb(57, 56, 63);
+}
+
+#admin a:link {
+  color: rgb(57, 56, 63);
+}
+
+#admin a:hover {
+  color: #f2e65e;
+}
+
+.admin {
+  margin-top: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #29282D;
+  color: #F4F5EF;
+  }
+
+.newsgrid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+#Maintext {
+  font-size: 100%;
+  max-width: 40%;
+  text-justify: newspaper;
+}
