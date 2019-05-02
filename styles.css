@@ -46,3 +46,7 @@ body {
 .links {
   color: rgb(37, 88, 255);
 }
+
+.carousel-caption {
+  color: black;
+}
