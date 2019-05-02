@@ -69,7 +69,7 @@
 /* Website styling */
 
 body {
-  background-color: #29282D;
+  background-color: #7798ab;
   font-family: bariolregular
 }
 
@@ -80,16 +80,16 @@ h1 {
 }
 
 h3 a:visited {
-  color: #29282D;
+  color: #0d1b1e;
 }
 
 h3 a:link {
-  color: #29282D;
+  color: #0d1b1e;
   text-decoration: none
 }
 
 h3 a:hover {
-  color: #717173;
+  color: #E8DCB9;
 }
 
 p {
@@ -106,9 +106,19 @@ h4 {
   overflow: hidden;
 }
 
+header {
+  background-color: #C3DBC5;
+  color: #0d1b1e;
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+}
+
 #Bar {
-  background-color: #f2e65e;
-  color: #29282D;
+  background-color: #C3DBC5;
+  color: #0d1b1e;
+  width: 100%;
 }
 
 #Bar td {
@@ -118,14 +128,11 @@ h4 {
 
 #Bar table {
   text-align: left;
-  padding-left: 5%;
+  padding-left: 0%;
 }
 
 #logo {
   max-width: 120px;
-  float: left;
-  padding-top: 0%;
-  padding-left: 10px
 }
 
 .block {
@@ -151,7 +158,7 @@ h4 {
 }
 
 #admin a:hover {
-  color: #f2e65e;
+  color: #7798ab;
 }
 
 .admin {
@@ -162,7 +169,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: #29282D;
+  background-color: #0d1b1e;
   color: #F4F5EF;
   }
 
