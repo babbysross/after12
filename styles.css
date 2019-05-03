@@ -47,6 +47,21 @@ body {
   color: rgb(37, 88, 255);
 }
 
+.container {
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.headline {
+  border-bottom: 2px solid rgb(240, 240, 240);
+  width: 100%;
+}
+
 .carousel-caption {
   color: black;
+}
+
+#myCarousel {
+  justify-self: center;
+  max-width: 70%;
 }
