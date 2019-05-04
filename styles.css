@@ -35,7 +35,11 @@ a:hover {
 .menu-container {
     /*  color: #fff;
   background-color: #5995DA;   Blue */
+    width: 100%;
+    top: 0;
+    position: fixed;
     border-bottom: 2px solid rgb(240, 240, 240);
+    background-color: inherit;
     max-height: 2.5em;
     display: flex;
     justify-content: space-between;
@@ -79,6 +83,7 @@ a:hover {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 .section-row {
@@ -108,8 +113,12 @@ a:hover {
     margin-top: 20px;
 }
 
+.error-pic {
+    width: 10em;
+}
+
 .a12-pic {
-    max-width: 100%;
+    width: 100%;
 }
 
 .a12-text {
@@ -120,4 +129,5 @@ a:hover {
     /*border: 1px solid black;*/
     display: flex;
     justify-content: space-around;
+    border-top: 2px solid rgb(240, 240, 240);
 }
