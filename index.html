@@ -1,71 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel='stylesheet' href='styles.css'/> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>After 12 Media</title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='styles.css' />
+  <link rel='icon' href='files/favi.png' />
 </head>
+
 <body>
-<div class='menu-container'>
-  <div class='menu'>
-    <div class='date'>After 12 Media</div>
-      <div class="links">
+  <div class='menu-container'>
+    <div class='logobox'>
+      <a href='index.html'>
+        <image src='files/a12.svg' class='logo'>
+      </a>
+    </div>
+    <div class='menu'>
+      <div class='title'>After 12 Media</div>
+      <div class='links'>
         <div class='contact'>
-          <a href="">Contact us</a>
+          <a href=''>Contact us</a>
         </div>
       </div>
     </div>
   </div>
-<div class="container" align="center">
-  <div class="headline">
-    <h2>After 12's Podcasts</h2>
-  </div>  
-  <br />
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="files/pod1.jpg" alt="Chania" style="align-content: center">
-        <div class="carousel-caption">
-          <h3>Mind the Gap</h3>
-          <p>A weekly dose of what's new in the world of tech.</p>
-        </div>
+  <div class='section'>
+    <div class='headline' align='center'>
+      <h2>After 12's Podcasts</h2>
+    </div>
+    <br />
+    <div class='section-row'>
+      <div class='section-item'>
+        <a target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/MindTheGapCast' align='center'>
+          <img src='files/pod1.png' class='pod-pic'>
+        </a>
+        <h3>Mind the Gap</h3>
+        <p>A weekly dose of what's new in the world of tech.</p>
       </div>
-  
-      <div class="item">
-        <img src="files/pod2.jpg" alt="Chicago">
-        <div class="carousel-caption">
-          <h3>Podcast 2</h3>
-          <p>Placeholder!</p>
-        </div>
-      </div>
-  
-      <div class="item">
-        <img src="files/pod3.jpg" alt="New York">
-        <div class="carousel-caption">
-          <h3>Podcast 3</h3>
-          <p>Placeholder!</p>
-        </div>
+      <div class='section-item'>
+        <img src='files/pod2.jpg' class='pod-pic'>
+        <h3>Podcast 2</h3>
+        <p>Placeholder!</p>
       </div>
     </div>
-  
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class='section-row'>
+      <div class='section-item'>
+        <img src='files/pod3.jpg' class='pod-pic'>
+        <h3>Podcast 3</h3>
+        <p>Placeholder!</p>
+      </div>
+      <div class='section-item'>
+        <img src='files/pod4.jpg' class='pod-pic'>
+        <h3>Podcast 4</h3>
+        <p>Placeholder!</p>
+      </div>
+    </div>
   </div>
+  <div class='section'>
+    <div class='headline' align='center'>
+      <h2>About After 12 Media</h2>
+    </div>
+    <div class='about-row'>
+      <div>
+        <img src='files/a12.svg' class='a12-pic'>
+      </div>
+      <div class='a12-text'>
+        <p>After 12 Media is a podcast production and distribution company based in Scotland.</p>
+      </div>
+    </div>
+  </div>
+  <footer class='copyright'>
+    © 2019 After 12 Media
+  </footer>
+</body>
+
+</html>
