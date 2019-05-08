@@ -1,6 +1,6 @@
-![Mind The Gap](./files/mtg2.png)
+![After 12 Media](./files/a12.svg)
 
-The official Mind The Gap podcast website.
+The official After 12 Media website.
 
 
 
