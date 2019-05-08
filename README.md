@@ -2,7 +2,13 @@
 
 [<img src="./files/a12.svg" align="right" width="100">](babbysross.github.io/after12)
 
-**The official After 12 Media website.**
+>**The official After 12 Media website.**
+
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
