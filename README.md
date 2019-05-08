@@ -1,6 +1,8 @@
-![After 12 Media](./files/a12.svg)
+#After 12 Media
 
-The official After 12 Media website.
+[<img src="./files/a12.svg" align="right" width="100">](babbysross.github.io/after12)
+
+>The official After 12 Media website.
 
 
 
