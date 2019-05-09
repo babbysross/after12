@@ -97,7 +97,7 @@ a:hover {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    color: #414141;
+    color: inherit;
 }
 
 .pod-pic {
@@ -129,5 +129,6 @@ a:hover {
     /*border: 1px solid black;*/
     display: flex;
     justify-content: space-around;
+    background-color: inherit;
     border-top: 2px solid rgb(240, 240, 240);
 }
